@@ -1,0 +1,18 @@
+package basic.q08;
+import java.util.Scanner;
+
+public class InputProduct {
+
+	public static void main(String[] args) {
+		// TODO 自動生成されたメソッド・スタブ
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("商品名を入力してください。");
+		String productName = scanner.nextLine();
+		System.out.println("価格を入力してください。");
+		int price = scanner.nextInt();
+		System.out.println(productName);
+		System.out.println("商品名は" + productName + "です。価格は" + price + "円です。");
+		scanner.close();
+	}
+
+}

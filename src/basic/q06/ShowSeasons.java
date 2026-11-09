@@ -4,7 +4,7 @@ public class ShowSeasons {
 
 	public static void main(String[] args) {
 		// TODO 自動生成されたメソッド・スタブ
-		int month;
+		int month = 1;
 		switch (month) {
 		case 1:
 		case 2:
